@@ -8,7 +8,7 @@ var express = require('express'),
 
 //Url connection
 mongoose.Promise = global.Promise
-mongoose.connect('mongodb://localhost/Filesdb');
+mongoose.connect('mongodb://10.50.67.83/Filesdb');
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());

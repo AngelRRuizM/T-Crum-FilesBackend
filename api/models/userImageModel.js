@@ -17,9 +17,9 @@ var UserImageSchema = new Schema({
         unique: true
 
     },
-    path: {
-        type: String,
-        required: "Por favor incluye el path"
+    image: {
+        type: Buffer,
+        required: "Por favor incluye la imagen" 
     },
     Created_date: {
         type: Date,

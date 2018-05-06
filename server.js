@@ -1,6 +1,6 @@
 var express = require('express'),
   app = express(),
-  port = 3000,
+  port = 3500,
   mongoose = require('mongoose'),
   ProjectFile = require('./api/models/projectFileModel'),
   UserImage = require('./api/models/userImageModel'),
@@ -21,4 +21,4 @@ app.use(function(req, res) {
     res.status(404).send({url: req.originalUrl + ' not found'})
   });
 
-app.listen(port);
+app.listen(port); 

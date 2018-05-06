@@ -21,9 +21,9 @@ var ProjectFileSchema = new Schema({
         min: 1,
         required: "Por favor incluya el id de un proyecto"
     },
-    path: {
-        type: String,
-        required: "Por favor incluye el path"
+    file: {
+        type: Buffer,
+        required: "Por favor incluye el archivo" 
     },
     Created_date: {
         type: Date,

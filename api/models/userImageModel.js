@@ -19,6 +19,7 @@ var UserImageSchema = new Schema({
     },
     image: {
         type: Buffer,
+        contentTYpe: String,
         required: "Por favor incluye la imagen" 
     },
     Created_date: {

@@ -23,6 +23,7 @@ var ProjectFileSchema = new Schema({
     },
     file: {
         type: Buffer,
+        contentTYpe: String,
         required: "Por favor incluye el archivo" 
     },
     Created_date: {
@@ -30,5 +31,5 @@ var ProjectFileSchema = new Schema({
         default: Date.now
     }
 });
-
+ 
 module.exports = mongoose.model('ProjectFile', ProjectFileSchema);

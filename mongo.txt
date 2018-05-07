@@ -1,0 +1,24 @@
+db.userimages.insertOne({
+	user_id: "l00000000",
+	path: "assets/img/faces/Picture1.png"
+})
+db.userimages.insertOne({
+	user_id: "a00000000",
+	path: "assets/img/faces/Picture2.png"
+})
+db.userimages.insertOne({
+	user_id: "a11111111",
+	path: "assets/img/faces/Picture3.png"
+})
+db.userimages.insertOne({
+	user_id: "a22222222",
+	path: "assets/img/faces/Picture4.png"
+})
+db.userimages.insertOne({
+	user_id: "a33333333",
+	path: "assets/img/faces/Picture5.png"
+})
+db.userimages.insertOne({
+	user_id: "a44444444",
+	path: "assets/img/faces/Picture1.png"
+})
